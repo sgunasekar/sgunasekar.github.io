@@ -273,7 +273,7 @@ footer {
   section {
     border:10px solid #e5e5e5;
     border-width:1px 0;
-    padding:20px 0px;
+    padding:20px 10px;
     margin:10px 10px 20px;
   }
 
