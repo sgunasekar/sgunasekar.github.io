@@ -69,6 +69,7 @@ h1, h2, h3, h4, h5, h6 {
 
 p, ul, ol, table, pre, dl {
   margin:0 0 20px;
+  padding:0px 20px
 }
 
 h1, h2, h3 {
@@ -265,8 +266,7 @@ footer {
   }
 
   header {
-    padding-right:320px;
-    margin:10px 10px 20px;
+    padding-right:320px;    
   }
 
 
@@ -274,7 +274,7 @@ footer {
     border:10px solid #e5e5e5;
     border-width:1px 0;
     padding:20px 0px;
-    margin:10px 10px 20px;
+    margin:5px 5px 10px;
   }
 
   header a small {
