@@ -31,74 +31,108 @@
 		<div> 
 			<img alt="Profile Picture" src="images/profilepic.jpg" style="width:150px;height:150px;border:0;box-shadow:5px 5px 5px rgba(0, 0, 0, 0.5);" class="img-circle img-responsive"/>
 		</div> </a>
-		<p></p>
-		<p></p>
+		<br>
 		<style>
 			a:link    {color:black; background-color:transparent; text-decoration:none}
 			a:visited {color:black; background-color:transparent; text-decoration:none}
 			a:hover   {color:black; background-color:transparent; text-decoration:none}
 			a:active  {color:black; background-color:transparent; text-decoration:none}
 		</style>
+		<div style="line-height:1.5;margin=0">
 		<i class="fa fa-download fa-lg"></i> &nbsp CV <br>
-		<a href=mailto:suriya@utexas.edu  target="_blank"> <img src="images/email.png" style="width:20px;height:20px;"/>&nbsp <u>E-mail</u> </a> <br>
-		<a href="https://scholar.google.com/citations?user=EkREu_QAAAAJ&hl=en&oi=ao target="_blank"> <img src="https://scholar.google.com/favicon.ico" style="width:20px;height:20px;"/>&nbsp <u>Google Scholar </u> </a><br>
+		<a href=mailto:suriya@utexas.edu  target="_blank" style="color:#145A8C"> <img src="images/email.png" style="width:20px;height:20px;"/>&nbsp <u>E-mail</u> </a> <br>
+		<a href="https://scholar.google.com/citations?user=EkREu_QAAAAJ&hl=en&oi=ao target="_blank" style="color:#145A8C"> <img src="https://scholar.google.com/favicon.ico" style="width:20px;height:20px;"/>&nbsp <u>Google Scholar </u> </a></div>
 		<!-- <p><a href=http://www.researchgate.net/profile/Suriya_Gunasekar> <u><img src="images/researchgate.png" style="width:20px;height:20px;"/> Research Gate </u> </a></p> -->
 		<!-- <p><a href="https://twitter.com/suriyag88"  target="_blank"><img src="images/twitter.png" style="width:20px;height:20px;"/> <u>Twitter </u></a></p> -->
       </header>
 
+
       <section>
+	    <h4  style="color:#8B4513"> <i class="fa fa-book"></i> Publications </h4><p></p>
+	    <select id="dropdown" onchange="selectField(this)">
+		<option value="all"  selected="selected">All</option>
+		<option value="mltheory">ML Theory</option>
+		<option value="mlapp">ML Application</option>
+	  	<option value="mc">Matrix Completion/High Dimensional Estimation</option>
+		<option value="ehr">Healthcare Analytics</option>
+		<option value="recsys">Recommendation Systems</option>
+		<option value="iqa">Image Quality Assessment</option>
+	    </select>
+
 	    <div class="table-responsive">
-	    <table class="table table-hover">
+
+	    <table class="table table-hover" id="pub">
 	    <thead>
 	    <tr><th>Year</th><th>Publication</th></tr>
 	    </thead>
 	    <tbody>
-	    <tr><td>2015</td>
+	    <tr data-tag="#mlapp#ehr"><td>2015</td>
 		<td><b>S. Gunasekar</b>, J. Ho, J. Ghosh, S. Kreml, A. N. Kho, J. C.  Denny, B. A. Malin, J. Sun, 
 		<br> Phenotyping using Structured Collective Matrix Factorization of Multi–source EHR Data. 
-		<br> (Under review). </td></tr>
-	    <tr><td>2015</td>
+		<br> (Under review). 
+		<br> Keywords: Clinical Healthcare Analytics, ML Application.</td></tr>
+	    <tr data-tag="#hde#mc#mltheory"><td>2015</td>
 		<td><b>S. Gunasekar</b>, A. Banerjee, J. Ghosh, 
 		<br> Unified View of Matrix Completion under General Structural Constraints.
 		<br> To appear in NIPS 2015. 
+		<br> Keywords: High Dimensional Estiamtion, Matrix Completion, ML Theory.
 		<br> <i class="fa fa-file-pdf-o"></i> ArXiv.</td></tr>
-	    <tr><td>2014</td>
+	    <tr data-tag=#hde#mc#mltheory><td>2014</td>
 		<td><b>S. Gunasekar</b>, M. Yamada, D. Yin, Y. Chang, 
 		<br> Consistent Collective Matrix Completion under Joint Low Rank Structure. 
 		<br> In AISTATS 2014. 
+		<br> Keywords: High Dimensional Estiamtion, Matrix Completion, ML Theory.
 		<br> <i class="fa fa-file-pdf-o"></i> ArXiv, &nbsp  <i class="fa fa-file-code-o"></i> Code.</td></tr>
-	    <tr><td>2014</td>
+	    <tr data-tag="#iqa#mlapp"><td>2014</td>
 		<td><b>S. Gunasekar</b>, J. Ghosh, A. C. Bovik, 
 		<br> Face Detection on Distorted Images Augmented by Perceptual Quality-Aware Features, 
-		<ul> <li> In IEEE Transactions on Information Forensics and Security, 2014. 
-		<li> Shorter version appeared in IS&T/SPIE Electronic Imaging, 2014. </ul>
-		<i class="fa fa-file-pdf-o"></i> Long Version, Conference Version, &nbsp <i class="fa fa-database"></i> Dataset.</td></tr>
-	    <tr><td>2014</td>
+		<br> <i class="fa fa-caret-right fa-xs"></i> In IEEE Transactions on Information Forensics and Security, 2014. 
+		<br> <i class="fa fa-caret-right fa-xs"></i> Shorter version appeared in IS&T/SPIE Electronic Imaging, 2014. 
+		<br> Keywords: Image Quality Assessment, ML Applications.
+		<br><i class="fa fa-file-pdf-o"></i> Long Version, Conference Version, &nbsp <i class="fa fa-database"></i> Dataset.</td></tr>
+	    <tr data-tag="#hde#mc#mltheory"><td>2014</td>
 		<td><b>S. Gunasekar</b>, P. Ravikumar, J. Ghosh, 
 		<br> Exponential family matrix completion under structural constraints. 
 		<br> In ICML 2014.
+		<br> Keywords: High Dimensional Estiamtion, Matrix Completion, ML Theory.
 		<br> <i class="fa fa-file-pdf-o"></i> ArXiv, Errata for the Conference Version, &nbsp  <i class="fa fa-file-code-o"></i> Code.</td></tr>
-	    <tr><td>2013</td>
-		<td><b> S. Gunasekar</b>, A. Acharya, N. Gaur, J. Ghosh, 
+	    <tr data-tag="#mc#mltheory"><td>2013</td>
+		<td><b>S. Gunasekar</b>, A. Acharya, N. Gaur, J. Ghosh, 
 		<br> Noisy Matrix Completion Using Alternating Minimization.
 		<br> In ECML/PKDD 2013. 
-		<br> <i class="fa fa-file-pdf-o"></i> PDF. </td></tr>
-	    <tr><td>2012</td>
+		<br> Keywords: Matrix Completion, ML Theory.
+		<br> <i class="fa fa-file-pdf-o"></i> PDF. </td></tr>	    
+	    <tr data-tag="#recsys#mlapp"><td>2012</td>
 		<td>S. Raghavan, <b>S. Gunasekar</b>, J. Ghosh, 
 		<br> Review quality aware collaborative filtering.
 		<br> In RecSys 2012. 
+		<br> Keywords: Recommendation Systems, ML Application.
 		<br> <i class="fa fa-file-pdf-o"></i> PDF. </td></tr>
-	    <tr><td>2012</td>
+	    <tr data-tag="#recsys#mlapp"><td>2012</td>
 		<td><b>S. Gunasekar</b>,
 		<br> A survey on using side information in recommendation systems.
 		<br> In UT Electronic Theses and Dissertations.
+		<br> Keywords: Recommendation Systems, Survey.
 		<br> <i class="fa fa-file-pdf-o"></i> PDF. </td></tr>
 	    </tbody>
 	    </table>
 	    </div>
       </section>
+    </div>
 
     <script src="javascripts/scale.fix.js"></script>
+    <script>
+    function selectField(d) {
+	var t = d.options[d.selectedIndex].value
+	var rows= document.getElementById('pub').getElementsByTagName('tr'), i=1, r, c;
+	while(r=rows[i++]){
+	   if(t=='all'){r.style.display=''}
+	   else{
+		c=r.getAttribute('data-tag');
+		r.style.display=(c.search(t)>=0)?'':'none';}		   
+	}
+    }		
+    </script>
     
   </body>
 </html>
