@@ -1,0 +1,9 @@
+User-agent: Googlebot
+Disallow: /images/
+Disallow: /javascripts/
+Disallow: /stylesheets/
+
+User-agent: *
+Disallow: /onlygooglebot/
+
+Sitemap: http://www.example.com/sitemap.xml
