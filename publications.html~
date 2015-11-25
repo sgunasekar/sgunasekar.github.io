@@ -29,9 +29,9 @@
   <body>
     <div class="wrapper">
       <header>
-		<a href="index.html"> <h2 style="color:#8B4513"> Suriya Gunasekar </h2>		
+		<a href="index.html"> <h2 style="color:#8B4513"  position="fixed"> Suriya Gunasekar </h2>		
 
-		<div> 
+		<div  position="absolute"> 
 			<img alt="Profile Picture" src="images/profilepic.jpg" style="width:150px;height:150px;border:0;box-shadow:5px 5px 5px rgba(0, 0, 0, 0.5);" class="img-circle img-responsive"/>
 		</div> </a>
 		<br>
@@ -76,53 +76,53 @@
 		<td><b>Phenotyping using Structured Collective Matrix Factorization of Multi–source EHR Data. </b>
 		<br> <b>S. Gunasekar</b>, J. Ho, J. Ghosh, S. Kreml, A. N. Kho, J. C.  Denny, B. A. Malin, J. Sun. 
 		<br> (Under review). 
-		<br> Keywords: Clinical Healthcare Analytics, ML Application.</td></tr>
+		<br> <small>Keywords: Clinical Healthcare Analytics, ML Application.</small></td></tr>
 	    <tr data-tag="#hde#mc#mltheory"><td>2015</td>
 		<td><b>Unified View of Matrix Completion under General Structural Constraints.</b>
 		<br> <b>S. Gunasekar</b>, A. Banerjee, J. Ghosh.
 		<br> To appear in Advances in Neural Information Processing Systems 28 (NIPS 2015). 
-		<br> Keywords: High Dimensional Estiamtion, Matrix Completion, ML Theory.
+		<br> <small>Keywords: High Dimensional Estiamtion, Matrix Completion, ML Theory.</small>
 		<br> <i class="fa fa-file-pdf-o"></i> ArXiv.</td></tr>
 	    <tr data-tag=#hde#mc#mltheory><td>2015</td>
 		<td><b>Consistent Collective Matrix Completion under Joint Low Rank Structure. </b>
 		<br> <b>S. Gunasekar</b>, M. Yamada, D. Yin, Y. Chang.
 		<br> In 18th International Conference on Artificial Intelligence and Statistics (AISTATS 2015). 
-		<br> Keywords: High Dimensional Estiamtion, Matrix Completion, ML Theory.
+		<br> <small>Keywords: High Dimensional Estiamtion, Matrix Completion, ML Theory.</small>
 		<br> <i class="fa fa-file-pdf-o"></i> <a href="http://arxiv.org/abs/1412.2113" style="text-decoration:underline;color:#145A8C"  target="_blank">ArXiv</a>, &nbsp  <i class="fa fa-file-code-o"></i> Code.</td></tr>
 	    <tr data-tag="#iqa#mlapp"><td>2014</td>
 		<td><b>Face Detection on Distorted Images Augmented by Perceptual Quality-Aware Features.</b>
 		<br> <b>S. Gunasekar</b>, J. Ghosh, A. C. Bovik.
 		<br> <i class="fa fa-caret-right fa-xs"></i> In IEEE Transactions on Information Forensics and Security, 2014. 
 		<br> <i class="fa fa-caret-right fa-xs"></i> Shorter version appeared in IS&T/SPIE Electronic Imaging Conference, 2014. 
-		<br> Keywords: Image Quality Assessment, ML Applications.
-		<br><i class="fa fa-file-pdf-o"></i> <a href="writeups/face2.pdf" style="text-decoration:underline;color:black"  target="_blank">Long Version</a>, <a href="writeups/face1.pdf" style="text-decoration:underline;color:#145A8C"  target="_blank">Conference Version</a>, &nbsp <i class="fa fa-database"></i> <a href="http://live.ece.utexas.edu/research/quality/dfd.html" style="text-decoration:underline;color:#145A8C"  target="_blank">Dataset</a>.</td></tr>
+		<br> <small>Keywords: Image Quality Assessment, ML Applications.</small>
+		<br><i class="fa fa-file-pdf-o"></i> <a href="writeups/face2.pdf" style="text-decoration:underline;color:#145A8C"  target="_blank">Long Version</a>, <a href="writeups/face1.pdf" style="text-decoration:underline;color:#145A8C"  target="_blank">Conference Version</a>, &nbsp <i class="fa fa-database"></i> <a href="http://live.ece.utexas.edu/research/quality/dfd.html" style="text-decoration:underline;color:#145A8C"  target="_blank">Dataset</a>.</td></tr>
 	    <tr data-tag="#hde#mc#mltheory"><td>2014</td>
 		<td><b>Exponential family matrix completion under structural constraints. </b>
 		<br> <b>S. Gunasekar</b>, P. Ravikumar, J. Ghosh. 
 		<br> In 31st International Conference on Machine Learning (ICML 2014).
-		<br> Keywords: High Dimensional Estiamtion, Matrix Completion, ML Theory.
+		<br> <small>Keywords: High Dimensional Estiamtion, Matrix Completion, ML Theory.</small>
 		<br> <i class="fa fa-file-pdf-o"></i> <a href="http://arxiv.org/pdf/1509.04397v1.pdf" style="text-decoration:underline;color:#145A8C"  target="_blank">ArXiv</a>, &nbsp<i class="fa fa-exclamation-circle"></i> <a href="writeups/emc_errata.pdf" style="text-decoration:underline;color:#145A8C"  target="_blank"> Errata</a> for the <a href="http://jmlr.org/proceedings/papers/v32/gunasekar14.pdf" style="text-decoration:underline;color:#145A8C"  target="_blank">Conference Version</a>, &nbsp  <i class="fa fa-file-code-o"></i> Code.</td></tr>
 	    <tr data-tag="#mc#mltheory"><td>2013</td>
 		
 		<td><b>Noisy Matrix Completion Using Alternating Minimization.</b>
 		<br> <b>S. Gunasekar</b>, A. Acharya, N. Gaur, J. Ghosh.
 		<br> In Machine Learning and Knowledge Discovery in Databases (ECML/PKDD 2013). 
-		<br> Keywords: Matrix Completion, ML Theory.
-		<br> <i class="fa fa-file-pdf-o"></i> <a href="writeups/noisy.pdf" style="text-decoration:underline;color:black"  target="_blank">PDF</a>. </td></tr>	    
+		<br> <small>Keywords: Matrix Completion, ML Theory.</small>
+		<br> <i class="fa fa-file-pdf-o"></i> <a href="writeups/noisy.pdf" style="text-decoration:underline;color:#145A8C"  target="_blank">PDF</a>. </td></tr>	    
 	    <tr data-tag="#recsys#mlapp"><td>2012</td>
 		
 		<td><b>Review quality aware collaborative filtering.</b>
 		<br> S. Raghavan*, <b>S. Gunasekar*</b>, J. Ghosh.
 		<br> In 6th ACM Conference on Recommender Systems (RecSys 2012). 
-		<br> Keywords: Recommendation Systems, ML Application.
-		<br> <i class="fa fa-file-pdf-o"></i> <a href="writeups/review.pdf" style="text-decoration:underline;color:black;"  target="_blank">PDF</a>. </td></tr>
+		<br> <small>Keywords: Recommendation Systems, ML Application.</small>
+		<br> <i class="fa fa-file-pdf-o"></i> <a href="writeups/review.pdf" style="text-decoration:underline;color:#145A8C;"  target="_blank">PDF</a>. </td></tr>
 	    <tr data-tag="#recsys#mlapp"><td>2012</td>
 		
 		<td><b>A survey on using side information in recommendation systems.</b>
 		<br> <b>S. Gunasekar</b>.
 		<br> In UT Electronic Theses and Dissertations.
-		<br> Keywords: Recommendation Systems, Survey.
-		<br> <i class="fa fa-file-pdf-o"></i> <a href="https://repositories.lib.utexas.edu/bitstream/handle/2152/ETD-UT-2012-05-5740/GUNASEKAR-MASTERS-REPORT.pdf" style="color:black;text-decoration:underline"  target="_blank">PDF</a>. </td></tr>
+		<br> <small>Keywords: Recommendation Systems, Survey.</small>
+		<br> <i class="fa fa-file-pdf-o"></i> <a href="https://repositories.lib.utexas.edu/bitstream/handle/2152/ETD-UT-2012-05-5740/GUNASEKAR-MASTERS-REPORT.pdf" style="color:#145A8C;text-decoration:underline"  target="_blank">PDF</a>. </td></tr>
 	    
 		</tbody>
 	    </table>

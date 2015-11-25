@@ -31,9 +31,9 @@
   <body>
     <div class="wrapper">
       <header>
-		<a href="index.html"> <h2 style="color:#8B4513"> Suriya Gunasekar </h2>		
+		<a href="index.html" > <h2 style="color:#8B4513"  position="fixed"> Suriya Gunasekar </h2>		
 
-		<div> 
+		<div  position="absolute"> 
 			<img alt="Profile Picture" src="images/profilepic.jpg" style="width:150px;height:150px;border:0;box-shadow:5px 5px 5px rgba(0, 0, 0, 0.5);" class="img-circle img-responsive"/>
 		</div> </a>
 		<br>
@@ -77,7 +77,7 @@
 	  	Current Research: 
 		<ul><li> Statistical machine learning, high dimensional estimation, matrix completion, clinical healthcare analytics, Learning to Rank (LETOR) in collaborative filtering, convex optimization. </li></ul>
 		<p></p>
-		<i>Interested in exploring</i>: <ul>
+		Interested in exploring: <ul>
 		<li> Approximate algorithms and distributed estimation for high dimensional learning problems: accuracy-computation tradeoff, smart-greedy algorithms. </li> 
 		<li> Semi-supervised and multi-task learning applications in healthcare and bioinformatics: structured prediction and LETOR, prediction from weak/noisy supervision, transfer learning, active learning. </li>
 		<li> Privacy preserving learning algorithms for ecommerce and healthcare applications. </li></ul>
