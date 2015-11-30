@@ -29,9 +29,9 @@
   <body>
     <div class="wrapper">
       <header>
-		<a href="index.html"> <h2 style="color:#8B4513"  position="fixed"> Suriya Gunasekar </h2>		
+		<a href="index.html"> <h2 style="color:#8B4513"> Suriya Gunasekar </h2>		
 
-		<div  position="absolute"> 
+		<div> 
 			<img alt="Profile Picture" src="images/profilepic.jpg" style="width:150px;height:150px;border:0;box-shadow:5px 5px 5px rgba(0, 0, 0, 0.5);" class="img-circle img-responsive"/>
 		</div> </a>
 		<br>
@@ -62,6 +62,7 @@
 		<option value="ehr">Healthcare Analytics</option>
 		<option value="recsys">Recommendation Systems</option>
 		<option value="iqa">Image Quality Assessment</option>
+		<option value="reports">Short Project Reports</option>
 	    </select>
 	    <p></p><a href="http://dblp.uni-trier.de/pers/hd/g/Gunasekar:Suriya" target="_blank" style="color:black;font-size:13px"> <button type="button" style="height:28px"><img src="images/dblp.png" style="height:20px;vertical-align:text-middle">dblp</button></a> 
 		<a href="https://scholar.google.com/citations?user=EkREu_QAAAAJ&hl=en&oi=ao" target="_blank" style="color:black;font-size:13px"><button type="button"  style="height:28px"><img src="images/scholar.png" style="height:15px;vertical-align:text-middle"/> Scholar</button></a>
@@ -123,7 +124,26 @@
 		<br> In UT Electronic Theses and Dissertations.
 		<br> <small>Keywords: Recommendation Systems, Survey.</small>
 		<br> <i class="fa fa-file-pdf-o"></i> <a href="https://repositories.lib.utexas.edu/bitstream/handle/2152/ETD-UT-2012-05-5740/GUNASEKAR-MASTERS-REPORT.pdf" style="color:#145A8C;text-decoration:underline"  target="_blank">PDF</a>. </td></tr>
-	    
+	    <tr data-tag="#reports"><td>2012<br>(Report)</td>
+		<td> Collaborative Filtering Models for a Personalized Photo Recommender.
+		<br> <b>S. Gunasekar</b>, Z. Kira, J. Eledath. 
+		<br> At SRI Labs, Princeton August 2012. 
+		<br> <i class="fa fa-file-pdf-o"></i> <a href="https://drive.google.com/file/d/0B-82hNqQICi-Y3lURFNxWVIzazA/edit?usp=sharing" style="color:#145A8C;text-decoration:underline"  target="_blank">PDF</a>. </td></tr>
+	    <tr data-tag="#reports"><td>2012<br>(Report)</td>
+		<td> Robust Compressed Sensing: Recovering Sparse Signals from Corrupted Measurement Matrices. 
+		<br> N. Valliappan*, <b> S. Gunasekar*</b>. 
+		<br> At UT Austin, May 2012.
+		<br> <i class="fa fa-file-pdf-o"></i> <a href="https://docs.google.com/open?id=0B-82hNqQICi-NjE3ZTA3MzgtNzMzYy00ZDUxLWI4ZDMtMDUzYjE1NzQyYmQ2" style="color:#145A8C;text-decoration:underline"  target="_blank">PDF</a>. </td></tr>
+	    <tr data-tag="#reports"><td>2012<br>(Report)</td>
+		<td> Word Sense Disambiguation using Probabilistic Semantic and Syntactic Word Vectors. 
+		<br> <b> S. Gunasekar</b>, A. Subramoney.  
+		<br> At UT Austin, December 2011.
+		<br> <i class="fa fa-file-pdf-o"></i> <a href="https://docs.google.com/viewer?a=v&pid=explorer&chrome=true&srcid=0B-82hNqQICi-ZjYyZGQyNDktNjc5Yi00N2RlLWExM2QtNDI5NmEyNWZlNmM5&hl=en_US" style="color:#145A8C;text-decoration:underline"  target="_blank">PDF</a>. </td></tr>
+	    <tr data-tag="#reports"><td>2012<br>(Report)</td>
+		<td> Music Recommendation using Collaborative Filtering for KDD Cup 2011 (Track 1).
+		<br> S. Jain*, <b>S. Gunasekar</b>. 
+		<br> At UT Austin, December 2011.
+		<br> <i class="fa fa-file-pdf-o"></i> <a href="https://docs.google.com/viewer?a=v&pid=explorer&chrome=true&srcid=0B-82hNqQICi-MTc4OGRjNjItODhlMi00YjRmLWExNWQtZDVlY2M5ZDI5MGVj&hl=en_US" style="color:#145A8C;text-decoration:underline"  target="_blank">PDF</a>. </td></tr>
 		</tbody>
 	    </table>
 	    </div>
