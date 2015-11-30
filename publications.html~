@@ -55,14 +55,14 @@
       <section>
 	    <h4  style="color:#8B4513;font-size:22px"> <i class="fa fa-book"></i> Publications </h4><p></p>
 	    <select id="dropdown" onchange="selectField(this)">
-		<option value="all"  selected="selected">---Select Research Area---</option>
+		<option value="all"  selected="selected">---Filter by Research Area---</option>
 		<option value="mltheory">ML Theory</option>
 		<option value="mlapp">ML Application</option>
 	  	<option value="mc">Matrix Completion/High Dimensional Estimation</option>
 		<option value="ehr">Healthcare Analytics</option>
 		<option value="recsys">Recommendation Systems</option>
 		<option value="iqa">Image Quality Assessment</option>
-		<option value="reports">Short Project Reports</option>
+		<option value="reports">Short Project Reports (Unpublished)</option>
 	    </select>
 	    <p></p><a href="http://dblp.uni-trier.de/pers/hd/g/Gunasekar:Suriya" target="_blank" style="color:black;font-size:13px"> <button type="button" style="height:28px"><img src="images/dblp.png" style="height:20px;vertical-align:text-middle">dblp</button></a> 
 		<a href="https://scholar.google.com/citations?user=EkREu_QAAAAJ&hl=en&oi=ao" target="_blank" style="color:black;font-size:13px"><button type="button"  style="height:28px"><img src="images/scholar.png" style="height:15px;vertical-align:text-middle"/> Scholar</button></a>
@@ -81,7 +81,7 @@
 	    <tr data-tag="#mlapp#ehr"><td>2015 <br>(Preprint)</td>
 		<td>J. Henderson, J. Ho, J. Ghosh, <b>S. Gunasekar</b>, J. Sun,
 		<br> Personalized Diversified Tensor Factorization for Phenotyping.
-		<br> (Short version in NIPS 2015 Workshop on Machine Learning in Healthcare.). 
+		<br> (Short version in NIPS 2015 Workshop on Machine Learning in Healthcare). 
 		<br> Keywords: Clinical Healthcare Analytics, ML Application.</td></tr>
 	    <tr data-tag="#hde#mc#mltheory"><td>2015</td>
 		<td><b>Unified View of Matrix Completion under General Structural Constraints.</b>
@@ -122,29 +122,29 @@
 		<br> In 6th ACM Conference on Recommender Systems (RecSys 2012). 
 		<br> <small>Keywords: Recommendation Systems, ML Application.</small>
 		<br> <i class="fa fa-file-pdf-o"></i> <a href="writeups/review.pdf" style="text-decoration:underline;color:#145A8C;"  target="_blank">PDF</a>. </td></tr>
-	    <tr data-tag="#recsys#mlapp"><td>2012</td>
+	    <tr data-tag="#recsys#mlapp"><td>2012 <br>(Thesis)</td>
 		
 		<td><b>A survey on using side information in recommendation systems.</b>
 		<br> <b>S. Gunasekar</b>.
 		<br> In UT Electronic Theses and Dissertations.
 		<br> <small>Keywords: Recommendation Systems, Survey.</small>
 		<br> <i class="fa fa-file-pdf-o"></i> <a href="https://repositories.lib.utexas.edu/bitstream/handle/2152/ETD-UT-2012-05-5740/GUNASEKAR-MASTERS-REPORT.pdf" style="color:#145A8C;text-decoration:underline"  target="_blank">PDF</a>. </td></tr>
-	    <tr data-tag="#reports"><td>2012<br>(Report)</td>
+	    <tr data-tag="#reports"><td>2012<br>(Unpublished Report)</td>
 		<td> Collaborative Filtering Models for a Personalized Photo Recommender.
 		<br> <b>S. Gunasekar</b>, Z. Kira, J. Eledath. 
 		<br> At SRI Labs, Princeton August 2012. 
 		<br> <i class="fa fa-file-pdf-o"></i> <a href="https://drive.google.com/file/d/0B-82hNqQICi-Y3lURFNxWVIzazA/edit?usp=sharing" style="color:#145A8C;text-decoration:underline"  target="_blank">PDF</a>. </td></tr>
-	    <tr data-tag="#reports"><td>2012<br>(Report)</td>
+	    <tr data-tag="#reports"><td>2012<br>(Unpublished Report)</td>
 		<td> Robust Compressed Sensing: Recovering Sparse Signals from Corrupted Measurement Matrices. 
 		<br> N. Valliappan*, <b> S. Gunasekar*</b>. 
 		<br> At UT Austin, May 2012.
 		<br> <i class="fa fa-file-pdf-o"></i> <a href="https://docs.google.com/open?id=0B-82hNqQICi-NjE3ZTA3MzgtNzMzYy00ZDUxLWI4ZDMtMDUzYjE1NzQyYmQ2" style="color:#145A8C;text-decoration:underline"  target="_blank">PDF</a>. </td></tr>
-	    <tr data-tag="#reports"><td>2012<br>(Report)</td>
+	    <tr data-tag="#reports"><td>2012<br>(Unpublished Report)</td>
 		<td> Word Sense Disambiguation using Probabilistic Semantic and Syntactic Word Vectors. 
 		<br> <b> S. Gunasekar</b>, A. Subramoney.  
 		<br> At UT Austin, December 2011.
 		<br> <i class="fa fa-file-pdf-o"></i> <a href="https://docs.google.com/viewer?a=v&pid=explorer&chrome=true&srcid=0B-82hNqQICi-ZjYyZGQyNDktNjc5Yi00N2RlLWExM2QtNDI5NmEyNWZlNmM5&hl=en_US" style="color:#145A8C;text-decoration:underline"  target="_blank">PDF</a>. </td></tr>
-	    <tr data-tag="#reports"><td>2012<br>(Report)</td>
+	    <tr data-tag="#reports"><td>2012<br>(Unpublished Report)</td>
 		<td> Music Recommendation using Collaborative Filtering for KDD Cup 2011 (Track 1).
 		<br> S. Jain*, <b>S. Gunasekar</b>. 
 		<br> At UT Austin, December 2011.
