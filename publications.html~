@@ -78,6 +78,11 @@
 		<br> <b>S. Gunasekar</b>, J. Ho, J. Ghosh, S. Kreml, A. N. Kho, J. C.  Denny, B. A. Malin, J. Sun. 
 		<br> (Under review). 
 		<br> <small>Keywords: Clinical Healthcare Analytics, ML Application.</small></td></tr>
+	    <tr data-tag="#mlapp#ehr"><td>2015 <br>(Preprint)</td>
+		<td>J. Henderson, J. Ho, J. Ghosh, <b>S. Gunasekar</b>, J. Sun,
+		<br> Personalized Diversified Tensor Factorization for Phenotyping.
+		<br> (Short version in NIPS 2015 Workshop on Machine Learning in Healthcare.). 
+		<br> Keywords: Clinical Healthcare Analytics, ML Application.</td></tr>
 	    <tr data-tag="#hde#mc#mltheory"><td>2015</td>
 		<td><b>Unified View of Matrix Completion under General Structural Constraints.</b>
 		<br> <b>S. Gunasekar</b>, A. Banerjee, J. Ghosh.
