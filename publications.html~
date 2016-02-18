@@ -73,11 +73,15 @@
 	    <tr><th>Year</th><th>Publication</th></tr>
 	    </thead>
 	    <tbody>
-	    <tr data-tag="#mlapp#ehr"><td>2015 <br>(Preprint)</td>
+	    <tr data-tag="#mlapp#ehr"><td>2016 <br>(In Prep)</td>
+		<td><b>Matrix Completion from Partial Rankings. </b>
+		<br> <b>S. Gunasekar</b>, O. Koyejo, J. Ghosh.  
+		<br> <small>Keywords: High Dimensional Estiamtion, Matrix Completion, ML Application.</small></td></tr>
+	    <tr data-tag="#mlapp#ehr"><td>2016 <br>(In Prep)</td>
 		<td><b>Phenotyping using Structured Collective Matrix Factorization of Multi–source EHR Data. </b>
 		<br> <b>S. Gunasekar</b>, J. Ho, J. Ghosh, S. Kreml, A. N. Kho, J. C.  Denny, B. A. Malin, J. Sun.  
 		<br> <small>Keywords: Clinical Healthcare Analytics, ML Application.</small></td></tr>
-	    <tr data-tag="#mlapp#ehr"><td>2015 <br>(Preprint)</td>
+	    <tr data-tag="#mlapp#ehr"><td>2016 <br>(In Prep)</td>
 		<td> <b>Personalized Diversified Tensor Factorization for Phenotyping.</b>
 		<br> J. Henderson, J. Ho, J. Ghosh, <b>S. Gunasekar</b>, J. Sun,
 		<br> (Short version in NIPS 2015 Workshop on Machine Learning in Healthcare). 
@@ -106,7 +110,7 @@
 		<br> <b>S. Gunasekar</b>, P. Ravikumar, J. Ghosh. 
 		<br> In 31st International Conference on Machine Learning (ICML), 2014.
 		<br> <small>Keywords: High Dimensional Estiamtion, Matrix Completion, ML Theory.</small>
-		<br> <i class="fa fa-file-pdf-o"></i> <a href="http://arxiv.org/pdf/1509.04397v1.pdf" style="text-decoration:underline;color:#145A8C"  target="_blank">ArXiv</a>, &nbsp<i class="fa fa-exclamation-circle"></i> <a href="writeups/emc_errata.pdf" style="text-decoration:underline;color:#145A8C"  target="_blank"> Errata</a> for the <a href="http://jmlr.org/proceedings/papers/v32/gunasekar14.pdf" style="text-decoration:underline;color:#145A8C"  target="_blank">Conference Version</a>, &nbsp  <i class="fa fa-file-code-o"></i> Code.</td></tr>
+		<br> <i class="fa fa-file-pdf-o"></i> <a href="http://arxiv.org/pdf/1509.04397v1.pdf" style="text-decoration:underline;color:#145A8C"  target="_blank">ArXiv</a>, &nbsp<i class="fa fa-exclamation-circle"></i> <a href="writeups/emc_errata.pdf" style="text-decoration:underline;color:#145A8C"  target="_blank"> Errata</a> for the <a href="http://jmlr.org/proceedings/papers/v32/gunasekar14.pdf" style="text-decoration:underline;color:#145A8C"  target="_blank">Conference Version</a><!--, &nbsp  <i class="fa fa-file-code-o"></i> Code.</td></tr>-->
 	    <tr data-tag="#mc#mltheory"><td>2013</td>
 		<td><b>Noisy Matrix Completion Using Alternating Minimization.</b>
 		<br> <b>S. Gunasekar</b>, A. Acharya, N. Gaur, J. Ghosh.
