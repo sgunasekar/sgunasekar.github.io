@@ -230,7 +230,8 @@ header ul a strong {
 section {
   width:700px;
   float:right;
-  padding-bottom:50px;
+  padding-bottom:-20px;
+  padding-top:0px;
 }
 
 small {
