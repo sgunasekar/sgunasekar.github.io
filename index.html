@@ -45,7 +45,7 @@
 		</style>
 		<div style="line-height:1.5;margin=0;font-size:17px">
 		<a href="misc/SGunasekar.pdf" target="_blank" style="color:#145A8C"> <img src="images/cv.png" style="width:15px;height:15px"><!--i class="fa fa-file-text-o fa-lg"></i-->&nbsp <u>CV</u></a><br>
-		<a href=mailto:suriya@ttic.edu  target="_blank" style="color:#145A8C"> <img src="images/email.png" style="width:15px;height:1s5px;"/>&nbsp <u> firstname [at] ttic [dot] edu </u> </a> <br>
+		<a href=mailto:suriya@ttic.edu  target="_blank" style="color:#145A8C"> <img src="images/email.png" style="width:15px;height:15px;"/>&nbsp <img src="images/email_add.png" style="height:25px;"/> </a> <br>
 		</div>
 		<!--a href="#publications" style="color:#145A8C"> <i class="fa fa-book fa-1x" style="color:black"></i>&nbsp <u>Publications</u> </a> <br>
 		
@@ -109,8 +109,10 @@
 	  <div>
 	  	<br><br>
 	    <h4  style="color:#8B4513;font-size:20px"> <!--i class="fa fa-book"></i--> Publications </h4><p></p>
-	    <select id="dropdown" onchange="selectField(this)">
-		<option value="all"  selected="selected">---Select Research Area---</option>
+	    <a href="http://dblp.uni-trier.de/pers/hd/g/Gunasekar:Suriya" target="_blank" style="color:black;font-size:13px"> <button type="button" style="height:28px"><img src="images/dblp.png" style="height:20px;vertical-align:text-middle">dblp</button></a> &nbsp 
+		<a href="https://scholar.google.com/citations?user=EkREu_QAAAAJ&hl=en&oi=ao" target="_blank" style="color:black;font-size:13px"><button type="button"  style="height:28px"><img src="images/scholar.png" style="height:15px;vertical-align:text-middle"/> Scholar</button></a>&nbsp &nbsp 
+		<select id="dropdown" onchange="selectField(this)">
+		<option value="all"  selected="selected">---Filter by research area---</option>
 		<option value="mltheory">ML Theory</option>
 		<option value="mlapp">ML Application</option>
 	  	<option value="mc">Matrix Completion/High Dimensional Estimation</option>
@@ -119,8 +121,7 @@
 		<!--option value="iqa">Image Quality Assessment</option>
 		<!--option value="reports">Short Project Reports (Unpublished)</option-->
 	    </select>
-	    <p></p><a href="http://dblp.uni-trier.de/pers/hd/g/Gunasekar:Suriya" target="_blank" style="color:black;font-size:13px"> <button type="button" style="height:28px"><img src="images/dblp.png" style="height:20px;vertical-align:text-middle">dblp</button></a> 
-		<a href="https://scholar.google.com/citations?user=EkREu_QAAAAJ&hl=en&oi=ao" target="_blank" style="color:black;font-size:13px"><button type="button"  style="height:28px"><img src="images/scholar.png" style="height:15px;vertical-align:text-middle"/> Scholar</button></a>
+	    
 	    <div class="table-responsive">
 
 	    <table class="table table-hover" id="pub">
@@ -130,8 +131,8 @@
 	    <tbody>
 	    <tr data-tag="#mlapp#mc#recsys"><td>2016 </td>
 		<td>  S. Gunasekar, O. Koyejo, J. Ghosh. 
-		<b> Preference Completion from Partial Rankings.</b> 
-		Advances in Neural Information Processing Systems 28 (NIPS), 2016 (to appear).
+		<b> <a href="https://arxiv.org/abs/1611.04218" style="text-decoration:underline;color:#145A8C"  target="_blank"> Preference Completion from Partial Rankings</a>.</b> 
+		Advances in Neural Information Processing Systems 28 (NIPS), 2016.
 		<br><i class="fa fa-code"></i> <a href="https://github.com/sgunasekar/rmc_code" style="text-decoration:underline;color:#145A8C"  target="_blank">Code</a></td></tr>
 
 		<!--br> <small>Keywords: High Dimensional Estiamtion, Matrix Completion, ML Application.</small-->
@@ -139,20 +140,20 @@
 	    <tr data-tag="#mlapp#ehr"><td>2016 <br></td>		
 		<td> S. Gunasekar, J. Ho, J. Ghosh, S. Kreml, A. N. Kho, J. C.  Denny, B. A. Malin, J. Sun.  
 		<b> <a href="https://arxiv.org/abs/1609.04466"  style="text-decoration:underline;color:#145A8C"  target="_blank"> Phenotyping using Structured Collective Matrix Factorization of Multi-source EHR Data.</a></b> 
-		Arxiv preprints
+		Arxiv preprints.
 		<!--br> <small>Keywords: Clinical Healthcare Analytics, ML Application.</small--></td></tr>
 		
 		<tr><td>2016 </td>		
 		<td>S. Gunasekar.
 		<b>Mining Structured Matrices in High Dimensions.</b>
-		UT Electronic Theses and Dissertations.
+		UT Electronic Theses and Dissertations, August 2016.
 		<!--br> <small>Keywords: Recommendation Systems, Survey.</small>
 		<br> <i class="fa fa-file-pdf-o"></i> PDF</a>.--> </td></tr>
 		
 		<tr data-tag="#mlapp#ehr"><td>2016 <br></td>		
 		<td> S. Joshi, S. Gunasekar, D. Sontag, J. Ghosh.  
 		<b> <a href="http://arxiv.org/abs/1608.00704" style="text-decoration:underline;color:#145A8C"  target="_blank"> Identifiable Phenotyping using Constrained Non-Negative Matrix Factorization</a>.</b> 
-		Machine Learning and Healthcare 2016.
+		Machine Learning and Healthcare Conference (MLHC), 2016.
 	    
 		<tr data-tag="#mlapp#ehr"><td>2016 <br></td>		
 		<td> J. Henderson, J. Ho, J. Ghosh, S. Gunasekar, J. Sun.
@@ -206,7 +207,7 @@
 	    <tr><td>2012 </td>		
 		<td>S. Gunasekar.
 		<b><a href="https://repositories.lib.utexas.edu/bitstream/handle/2152/ETD-UT-2012-05-5740/GUNASEKAR-MASTERS-REPORT.pdf" style="color:#145A8C;text-decoration:underline"  target="_blank">A survey on using side information in recommendation systems</a>.</b>
-		UT Electronic Theses and Dissertations.
+		UT Electronic Theses and Dissertations, May 2012.
 		<!--br> <small>Keywords: Recommendation Systems, Survey.</small>
 		<br> <i class="fa fa-file-pdf-o"></i> PDF</a>.--> </td></tr>
 	
