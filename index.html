@@ -80,7 +80,6 @@
 	  	<!--h4  style="color:#8B4513;font-size:20px"> <i class="fa fa-pencil"></i> Research </h4>
 		PhD Thesis: <i>Mining Structured Matrices in High Dimensions</i>
 		<p></p>
-	  	Current Research: 
 		Statistical machine learning, high dimensional estimation, clinical healthcare analytics, Learning to Rank (LETOR) in collaborative filtering, convex optimization.-->
 		<!--<p></p>
 		Interested in exploring: <ul>
@@ -116,12 +115,13 @@
 		<a href="https://scholar.google.com/citations?user=EkREu_QAAAAJ&hl=en&oi=ao" target="_blank" style="color:black;font-size:13px"><button type="button"  style="height:28px;"><img src="images/scholar.png" style="height:15px;vertical-align:text-middle"/> Scholar</button></a>
 		<select id="dropdown" style="height:28px;" onchange="selectField(this)">
 		<option value="all"  selected="selected">---Filter by research area---</option>
-		<option value="mltheory">ML Theory</option>
+		<!--option value="mltheory">ML Theory</option-->
 		<option value="mlapp">ML Application</option>
 	  	<option value="mc">Matrix Completion</option>
 		<option value="ehr">Healthcare Analytics</option>
 		<option value="recsys">Recommendation Systems</option>
-		<!--option value="iqa">Image Quality Assessment</option>
+		<option value="non-disc">Non-discrimination</option>
+        <!--option value="iqa">Image Quality Assessment</option>
 		<option value="reports">Short Project Reports (Unpublished)</option-->
 	    </select></p> 
 	    
@@ -132,7 +132,13 @@
 	    <tr><th>Year</th><th>Publication</th></tr>
 	    </thead>
 	    <tbody>
-	    <tr data-tag="#mlapp#mc#recsys"><td>2016 </td>
+	  
+	    <tr data-tag="#non-disc"><td>2017 </td>
+		<td>  B. Woodworth, S. Gunasekar, M. I. Ohanessian, N. Srebr. 
+		<b> <a href="https://arxiv.org/abs/1702.06081" style="text-decoration:underline;color:#145A8C"  target="_blank"> Learning Non-Discriminatory Predictors.</a></b> 
+		Conference On Learning Theory (COLT), 2017.</td></tr>
+
+        <tr data-tag="#mlapp#mc#recsys"><td>2016 </td>
 		<td>  S. Gunasekar, O. Koyejo, J. Ghosh. 
 		<b> <a href="https://arxiv.org/abs/1611.04218" style="text-decoration:underline;color:#145A8C"  target="_blank"> Preference Completion from Partial Rankings.</a></b> 
 		Advances in Neural Information Processing Systems 28 (NIPS), 2016.
