@@ -81,22 +81,14 @@ h1 {
   font-size:28px;
 }
 
-h2 {
-  color:#393939;
-}
-
-h3, h4, h5, h6 {
-  color:#494949;
-  
-}
-
 a {
-  color:#39c;
-  text-decoration:none;
+  text-decoration:underline;
+  text-decoration-style: dotted;
 }
 
 a:hover {
   color:#069;
+  text-decoration: none
 }
 
 a small {
@@ -104,6 +96,8 @@ a small {
   color:#777;
   margin-top:-0.3em;
   display:block;
+  text-decoration:underline;
+  text-decoration-style: dotted;
 }
 
 a:hover small {
@@ -162,7 +156,7 @@ img {
 }
 
 header {
-  width:25%;
+  width:35%;
   float:left;
   position:static;
   -webkit-font-smoothing:subpixel-antialiased;
@@ -228,7 +222,7 @@ header ul a strong {
 }
 
 section {
-  width:700px;
+  width:100%;
   float:right;
   padding-bottom:-20px;
   padding-top:0px;
@@ -253,7 +247,10 @@ footer {
   -webkit-font-smoothing:subpixel-antialiased;
   text-align="right"
 }
-
+u.dotted{
+          border-bottom: 1px dashed #999;
+          text-decoration: none;
+        }
 @media print, screen and (max-width: 960px) {
 
   div.wrapper {
@@ -268,7 +265,7 @@ footer {
   }
 
   header {
-    padding-right:320px;    
+    padding-right:320px;
   }
 
 
