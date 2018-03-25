@@ -58,55 +58,70 @@ body {
   width:75%
   background-color: #fff;
   padding:50px;
-  font: 14px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color:#727272;
+  font: 16px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color:#333;
   font-weight:400;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  color:#222;
-  margin:0 0 20px;
+p, table, pre {
+  margin:0 0 0px;
+  padding:0px 0px;
+  text-align:justify
 }
-
-p, ul, ol, table, pre, dl {
-  margin:0 0 20px;
-  padding:0px 20px
+ul, ol, dl {
+  margin:0 0 0px;
+  padding:0px 20px;
+  text-align:justify
 }
-
-h1, h2, h3 {
+h1, h2 {
   line-height:1.1;
 }
 
 h1 {
+  color:#B22222;
   font-size:28px;
 }
 
-a {
-  text-decoration:underline;
-  text-decoration-style: dotted;
+h2 {
+  color:green;
+  font-size:20px;
 }
+a:link    {color:#00264d; background-color:transparent; text-decoration-line:underline; text-decoration-style: dotted;}
+a:visited {color:#00264d; background-color:transparent; text-decoration-line:underline; text-decoration-style: dotted;}
+a:hover   {color:#00264d; background-color:transparent; text-decoration-line:none}
+a:active  {color:#00264d; background-color:transparent; text-decoration-line:underline; text-decoration-style: dotted;}
 
-a:hover {
-  color:#069;
-  text-decoration: none
+.button {
+    background-color: white;
+    border: 2px solid;
+    padding: 3px;
+    text-align: center;
+    vertical-align:middle;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    text-decoration: None
 }
-
-a small {
-  font-size:11px;
-  color:#777;
-  margin-top:-0.3em;
-  display:block;
-  text-decoration:underline;
-  text-decoration-style: dotted;
-}
-
-a:hover small {
-  color:#777;
+select {
+    background-color: white;
+    border: 2px solid;
+    padding: 3px;
+    padding-bottom: 5.5px;
+    text-align: center;
+    vertical-align:middle;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
 }
 
 .wrapper {
-  width:960px;
+  width:90%;
   margin:0 auto;
+
 }
 
 blockquote {
@@ -222,10 +237,18 @@ header ul a strong {
 }
 
 section {
-  width:60%;
+  width:100%;
   float:right;
-  padding-bottom:-20px;
   padding-top:0px;
+  display: block;
+  margin:0 0 0
+}
+aside {
+  width:62%;
+  float:right;
+  padding-top:0px;
+  display: block;
+  margin:0 0 0
 }
 
 small {
