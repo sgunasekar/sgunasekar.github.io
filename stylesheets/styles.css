@@ -72,6 +72,10 @@ body {
 article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section,summary{
     display:block;
 }
+span {
+    color:#7d3c98;
+    font-weight: bold;
+}
 
 p, table, pre {
   margin:0 0 0px;
