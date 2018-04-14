@@ -107,23 +107,23 @@ h1, h2 {
 }
 
 h1 {
-  color:#B22222;
+  color:#000;
   font-size:28px;
 }
 
 h2 {
-  color:green;
+  color:#000;
   font-size:24px;
 }
-a:link    {color:#00264d; background-color:transparent; text-decoration-line:underline; text-decoration-style: dotted;}
-a:visited {color:#00264d; background-color:transparent; text-decoration-line:underline; text-decoration-style: dotted;}
-a:hover   {color:#00264d; background-color:transparent; text-decoration-line:none}
-a:active  {color:#00264d; background-color:transparent; text-decoration-line:underline; text-decoration-style: dotted;}
+a:link    {color:#000; background-color:transparent; text-decoration-line:underline; text-decoration-style: dotted;}
+a:visited {color:#000; background-color:transparent; text-decoration-line:underline; text-decoration-style: dotted;}
+a:hover   {color:#000; background-color:transparent; text-decoration-line:none}
+a:active  {color:#000; background-color:transparent; text-decoration-line:underline; text-decoration-style: dotted;}
 
 .button {
     background-color: white;
     border: 2px solid;
-    color:#00264d;
+    color:#000;
     padding: 5px;
     height:35px;
     text-align: center;
@@ -138,7 +138,7 @@ a:active  {color:#00264d; background-color:transparent; text-decoration-line:und
 select {
     background-color: white;
     border: 2px solid;
-    color:#00264d;
+    color:#000;
     padding: 5px;
     height:35px;
     text-align: center;
