@@ -180,6 +180,19 @@ a {
   text-decoration:underline;
   text-decoration-style: dotted;
 }
+.button {
+    background-color:#888;
+    color:#000;
+    padding: 14px 16px;
+    text-align: center;
+    vertical-align:middle;
+    display: inline-block;
+    font-size: 20px;
+    margin: 0px 20px 0px;
+    border-radius: 0px;
+    text-decoration: None;
+    display:inline-block;
+}
 
 a:hover {
   color:#069;
@@ -198,7 +211,6 @@ a small {
 a:hover small {
   color:#777;
 }
-
 
 
 
