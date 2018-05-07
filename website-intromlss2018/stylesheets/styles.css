@@ -157,6 +157,11 @@ p, ul, ol, table, pre, dl {
   padding:0px 10px;
   width:80%
 }
+table {
+    margin-left:0px;
+    margin-bottom: 20px;
+    padding:0px 0px;
+}
 
 h2 {
   line-height:1.1;
@@ -244,7 +249,7 @@ table {
 th, td {
   text-align:left;
   padding:5px 10px;
-  border-bottom:1px solid #e5e5e5;
+  border-bottom:0px solid #e5e5e5;
   word-wrap:break-all;
 }
 
