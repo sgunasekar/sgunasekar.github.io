@@ -29,7 +29,7 @@
           <section>
               <header>
                   <a href="index.html" style="text-decoration:none;">
-                      <img alt="Profile Picture" src="images/profilepic.jpg" style="max-width:200px;max-height:200px;width:auto;height:auto;border:0;box-shadow:5px 5px 5px rgba(0, 0, 0, 0.5);margin-bottom:20px" class="img-circle img-responsive"/>
+                      <img alt="Profile Picture" src="images/pic2.jpg" style="max-width:200px;max-height:200px;width:auto;height:auto;border:0;box-shadow:5px 5px 5px rgba(0, 0, 0, 0.5);margin-bottom:20px" class="img-circle img-responsive"/>
                   </a>
               </header>
 
@@ -45,11 +45,11 @@
                   </a><br>
 
 
-                  <p style="padding:10px 0 10px;max-width:960px"> I am currently a research assistant professor at <a href="http://www.ttic.edu"  target="_blank">TTI Chicago</a>.
+                  <p style="padding:10px 0 10px;max-width:960px"> I am  a research assistant professor at <a href="http://www.ttic.edu"  target="_blank">TTI Chicago</a>.
                       I received my PhD in 2016 from <a href="http://www.ece.utexas.edu" target="_blank"> The University of Texas at Austin</a>, where I was advised by <a href="http://www.ideal.ece.utexas.edu/ghosh/"  target="_blank"> Prof. Joydeep Ghosh</a>. Past affiliations: <a href="https://wncg.org/" target="_blank">WNCG</a> and <a href="http://www.ideal.ece.utexas.edu/" target="_blank">IDEA Lab</a> @ UT Austin.
                   </p>
-                  <a class="button" style="color:#000;text-decoration:none;font-size:16px;"  href="misc/SGunasekar.pdf" target="_blank">
-                      <i class="fas fa-download"></i>&nbsp;   CV (June 2016)
+                  <a class="button" style="color:#000;text-decoration:none;font-size:16px;"  href="misc/SuriyaGunasekarCV.pdf" target="_blank">
+                      <i class="fas fa-download"></i>&nbsp;   CV
                   </a>
                   <a class="button" style="margin:0px 0px;color:#000;text-decoration:none;font-size:16px"  href="#publications">
                       <i class="fas fa-book"></i>&nbsp; Publications
@@ -68,32 +68,34 @@
               <dl>
 
 
-                  <dt> Recent papers </dt>
+                  <dt> Select papers </dt>
                   <dd>
                       <ul>
-                          <li> <span>New!</span> <a href="https://arxiv.org/abs/1806.00468" style="color:#006eb6" target="_blank"> Implicit Bias of Gradient Descent on Linear Convolutional Networks</a> (Under review).</li>
-                          <li> <span>New!</span> On avoiding discrimination in online learning with Thodoris Lykouris, Nathan Srebro, and Avrim Blum (arxiv link coming up soon)</li>
+                          <li> <span>New!</span> <a href="https://arxiv.org/abs/1806.00468" style="color:#006eb6" target="_blank"> Implicit Bias of Gradient Descent on Linear Convolutional Networks</a> (NIPS 2018).</li>
+                          <li> <span>New!</span> <a href="https://arxiv.org/abs/1810.11829" style="color:#006eb6" target="_blank"> On preserving non-discrimination when combining expert advice</a> (NIPS 2018)</li>
 
                           <li> <a href="https://arxiv.org/abs/1803.01905"  style="color:#006eb6" target="_blank"> Convergence of Gradient Descent on Separable Data</a> (Under review).</li>
 
-                          <li> <a href="https://arxiv.org/abs/1802.08246"  style="color:#006eb6" target="_blank"> Characterizing Implicit Bias in Terms of Optimization Geometry</a> (ICML 2018). </li>
 
-                          <!--li> Other implicit bias papers:</li>
-                          <ul>
-                              <li> <a href="https://arxiv.org/abs/1710.10345" style="color:#006eb6" target="_blank"> The Implicit Bias of Gradient Descent on Separable Data</a>.</li>
+
+                          <li> Other papers on inductive bias from optimization in learning:
+                          <ul style="list-style-type:circle">
+                              <li> <a href="https://arxiv.org/abs/1802.08246"  style="color:#006eb6" target="_blank"> Characterizing Implicit Bias in Terms of Optimization Geometry</a> (ICML 2018). </li>
+                              <li> <a href="https://arxiv.org/abs/1710.10345" style="color:#006eb6" target="_blank"> The Implicit Bias of Gradient Descent on Separable Data</a> (JMLR 2018).</li>
                               <li> <a href="https://arxiv.org/abs/1705.09280"  style="color:#006eb6" target="_blank"> Implicit Regularization in Matrix Factorization</a> (NIPS 2017).</li>
-                          </ul-->
+                          </ul>
+                          </li>
                       </ul>
                   </dd>
 
-                  <dt> Slides from recent talks </dt>
+                  <!--dt> Slides from recent talks </dt>
                   <dd>
                       <ul>
                           <li> <a href="misc/ismp_2018.pdf" style="color:#006eb6" target="_blank"> Implicit bias from optimization for learning</a> July 2018 @ ISMP.</li>
                           <li> <a href="misc/opt-geom_UW_2018.pdf" style="color:#006eb6" target="_blank"> Optimization Geometry and Implicit Regularization</a> March 2018 @ SILO Seminar Series at UW Madison.</li>
                           <li> <a href="misc/gf_ita_2018.pdf" style="color:#006eb6" target="_blank"> Implicit Regularization in Matrix Factorization </a> Feb 2018 @ ITA. </li>
                       </ul>
-                  </dd>
+                  </dd-->
 
                   <dt> Events</dt>
                   <dd>
@@ -123,11 +125,11 @@
                   </a>
                   <select id="dropdown" onchange="selectField(this)" autocomplete="off">
                       <option value="all"  selected="selected">---Filter by  topic---</option>
-                      <option value="impreg">Implicit Regularization</option>
+                      <option value="impreg">Optimization bias</option>
                       <option value="nondisc">Non-discrimination</option>
-                      <option value="mlapp">ML Applications</option>
-                      <option value="mc">Matrix Completion</option>
-                      <option value="ehr">Healthcare Analytics</option>
+                      <option value="mc">Matrix completion</option>
+                      <option value="mlapp">Applications</option>
+                      <!--option value="ehr">Healthcare Analytics</option-->
                   </select>
               </span>
 
@@ -142,9 +144,14 @@
                       </thead>
 
                       <tbody id="pub">
-                          <tr data-tag="#impreg"><td>2018</td>
-                              <td> S. Gunasekar, J. Lee, D. Soudry, N. Srebro. <b><a href="https://arxiv.org/abs/1806.00468" style="text-decoration:underline;color:#145A8C"  target="_blank"> Implicit Bias of Gradient Descent on Linear Convolutional Networks</a></b>. Arxiv Preprint, 2018.
+                          <tr data-tag="#nondisc"><td>2018</td>
+                              <td> A. Blum, S. Gunasekar, T. Lykouris, N. Srebro. <b><a href="https://arxiv.org/abs/1810.11829" style="text-decoration:underline;color:#145A8C"  target="_blank"> On preserving non-discrimination when combining expert advice</a></b>. Conference on Neural Information Processing Systems (NIPS), 2018 [to appear].
                               </td>
+                          </tr>
+                          <tr data-tag="#impreg"><td>2018</td>
+                              <td> S. Gunasekar, J. Lee, D. Soudry, N. Srebro. <b><a href="https://arxiv.org/abs/1806.00468" style="text-decoration:underline;color:#145A8C"  target="_blank"> Implicit Bias of Gradient Descent on Linear Convolutional Networks</a></b>. Conference on Neural Information Processing Systems (NIPS), 2018 [to appear].
+                              </td>
+                          </tr>
                           <tr data-tag="#impreg"><td>2018</td>
                               <td> S. Gunasekar, J. Lee, D. Soudry, N. Srebro. <b><a href="https://arxiv.org/abs/1802.08246" style="text-decoration:underline;color:#145A8C"  target="_blank"> Characterizing Implicit Bias in Terms of Optimization Geometry</a></b>. International Conference on Machine Learning (ICML), 2018.
                               </td>
@@ -156,7 +163,7 @@
                           </tr>
 
                           <tr data-tag="#impreg"><td>2018</td>
-                              <td> D. Soudry, E. Hoffer, M. S. Nacson, S. Gunasekar, N. Srebro. <b><a href="https://arxiv.org/abs/1710.10345" style="text-decoration:underline;color:#145A8C"  target="_blank"> The Implicit Bias of Gradient Descent on Separable Data</a></b>. Arxiv Preprint, 2018.
+                              <td> D. Soudry, E. Hoffer, M. S. Nacson, S. Gunasekar, N. Srebro. <b><a href="https://arxiv.org/abs/1710.10345" style="text-decoration:underline;color:#145A8C"  target="_blank"> The Implicit Bias of Gradient Descent on Separable Data</a></b>. Journal of Machine Learning (JMLR), 2018 [to appear].
                               </td>
                           </tr>
 
@@ -177,7 +184,7 @@
                               </td>
                           </tr>
 
-                          <tr data-tag="#mlapp#ehr"><td>2016</td>
+                          <tr data-tag="#mlapp"><td>2016</td>
                               <td> S. Gunasekar, J. Ho, J. Ghosh, S. Kreml, A. N. Kho, J. C.  Denny, B. A. Malin, J. Sun. <b><a href="https://arxiv.org/abs/1609.04466"  style="text-decoration:underline;color:#145A8C"  target="_blank"> Phenotyping using Structured Collective Matrix Factorization of Multi-source EHR Data</a></b>. Arxiv Preprint, 2016.
                               </td>
                           </tr>
@@ -187,12 +194,12 @@
                               </td>
                           </tr>
 
-                          <tr data-tag="#mlapp#ehr"><td>2016</td>
+                          <tr data-tag="#mlapp"><td>2016</td>
                               <td> S. Joshi, S. Gunasekar, D. Sontag, J. Ghosh. <b><a href="http://arxiv.org/abs/1608.00704" style="text-decoration:underline;color:#145A8C"  target="_blank"> Identifiable Phenotyping using Constrained Non-Negative Matrix Factorization</a></b>.  Machine Learning and Healthcare Conference (MLHC), 2016.
                               </td>
                           </tr>
 
-                          <tr data-tag="#mlapp#ehr"><td>2016</td>
+                          <tr data-tag="#mlapp"><td>2016</td>
                               <td> J. Henderson, J. Ho, J. Ghosh, S. Gunasekar, J. Sun. <b>Personalized Diversified Tensor Factorization for Phenotyping</b>. NIPS 2015 Workshop on Machine Learning in Healthcare.
                               </td>
                           </tr>
