@@ -154,6 +154,26 @@ select {
 .wrapper {
   width:90%;
   margin:0 auto;
+  height: auto;
+}
+.header {
+  width:25%;
+  float:left;
+  position:static;
+  -webkit-font-smoothing:subpixel-antialiased;
+  height: auto;
+}
+.aside {
+  width:40%;
+  float:left;
+  position:static;
+  -webkit-font-smoothing:subpixel-antialiased;
+  height: auto;
+}
+.container {
+  width:100%;
+  margin:0 auto;
+  height: auto;
 }
 
 blockquote {

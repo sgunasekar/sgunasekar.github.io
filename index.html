@@ -26,95 +26,123 @@
 
   <body>
       <div class="wrapper">
-          <section>
-              <header>
+          <div class="container">
+              <div class="header">
                   <a href="index.html" style="text-decoration:none;">
-                      <img alt="Profile Picture" src="images/pic2.jpg" style="max-width:200px;max-height:200px;width:auto;height:auto;border:0;box-shadow:5px 5px 5px rgba(0, 0, 0, 0.5);margin-bottom:20px" class="img-circle img-responsive"/>
+                      <img alt="Profile Picture" src="images/pic2.jpg" style="max-width:250px;max-height:250px;width:auto;height:auto;border:0;box-shadow:5px 5px 5px rgba(0, 0, 0, 0.5);margin-bottom:20px" class="img-circle img-responsive"/>
                   </a>
-              </header>
+              </div>
 
-              <aside>
+              <div class="aside">
                   <h1> Suriya Gunasekar </h1>
                   Research Assistant Professor <br>
-                  <a href="http://www.ttic.edu"  target="_blank" style="color:#000;font-size:16px">
-                      Toyota Technological Institute at Chicago
-                  </a><br>
+                  <a href="http://www.ttic.edu"  target="_blank" style="color:#000;font-size:16px">Toyota Technological Institute at Chicago</a><br>
                   <a href="mailto:suriya@ttic.edu"  target="_blank" style="color:#000 ;font-size:20px;text-decoration:none">
-                      <i class="far fa-envelope"></i>
-                      <img alt="Email id" src="images/email_add.png" style="height:30px;"/>
+                      <i class="far fa-envelope"></i>&nbsp<img alt="Email id" src="images/email_add.png" style="height:30px;"/>
                   </a><br>
 
-
-                  <p style="padding:10px 0 10px;max-width:960px"> I am  a research assistant professor at <a href="http://www.ttic.edu"  target="_blank">TTI Chicago</a>.
+                  <p style="padding:10px 0 10px;max-width:960px">
+                      I am  a research assistant professor at <a href="http://www.ttic.edu"  target="_blank">TTI Chicago</a>.
                       I received my PhD in 2016 from <a href="http://www.ece.utexas.edu" target="_blank"> The University of Texas at Austin</a>, where I was advised by <a href="http://www.ideal.ece.utexas.edu/ghosh/"  target="_blank"> Prof. Joydeep Ghosh</a>. Past affiliations: <a href="https://wncg.org/" target="_blank">WNCG</a> and <a href="http://www.ideal.ece.utexas.edu/" target="_blank">IDEA Lab</a> @ UT Austin.
                   </p>
+                  <p style="padding:0px 0 0px;max-width:960px;color:red">
+                      <span style="color:red">I am on the job market.</span>
+                      Research areas: machine learning and optimization.
+                  </p>
+
                   <a class="button" style="color:#000;text-decoration:none;font-size:16px;"  href="misc/SuriyaGunasekarCV.pdf" target="_blank">
                       <i class="fas fa-download"></i>&nbsp;   CV
                   </a>
                   <a class="button" style="margin:0px 0px;color:#000;text-decoration:none;font-size:16px"  href="#publications">
                       <i class="fas fa-book"></i>&nbsp; Publications
                   </a>
-              </aside>
-          </section>
-          <br><hr style="display:inline-block; width:100%;"><br>
+              </div>
+          </div>
+          <hr style="display:inline-block; width:100%;">
       </div>
 
       <div class="wrapper">
           <section>
-              <!--br><hr style="display:inline-block; width:100%;"><br-->
-              <p style="padding-top:0px"></p>
-
-              <h2> Recent activities </h2>
-              <dl>
-
-
-                  <dt> Select papers </dt>
+              <h2>Select papers </h2>
+              <dl style="width:90%">
+                  <dt>
+                      <p style="color:#006666"><b>On inductive bias from optimization in learning:</b></p>
+                  </dt>
                   <dd>
                       <ul>
-                          <li> <span>New!</span> <a href="https://arxiv.org/abs/1806.00468" style="color:#006eb6" target="_blank"> Implicit Bias of Gradient Descent on Linear Convolutional Networks</a> (NIPS 2018).</li>
-                          <li> <span>New!</span> <a href="https://arxiv.org/abs/1810.11829" style="color:#006eb6" target="_blank"> On preserving non-discrimination when combining expert advice</a> (NIPS 2018)</li>
-
-                          <li> <a href="https://arxiv.org/abs/1803.01905"  style="color:#006eb6" target="_blank"> Convergence of Gradient Descent on Separable Data</a> (Under review).</li>
-
-
-
-                          <li> Other papers on inductive bias from optimization in learning:
-                          <ul style="list-style-type:circle">
-                              <li> <a href="https://arxiv.org/abs/1802.08246"  style="color:#006eb6" target="_blank"> Characterizing Implicit Bias in Terms of Optimization Geometry</a> (ICML 2018). </li>
-                              <li> <a href="https://arxiv.org/abs/1710.10345" style="color:#006eb6" target="_blank"> The Implicit Bias of Gradient Descent on Separable Data</a> (JMLR 2018).</li>
-                              <li> <a href="https://arxiv.org/abs/1705.09280"  style="color:#006eb6" target="_blank"> Implicit Regularization in Matrix Factorization</a> (NIPS 2017).</li>
-                          </ul>
+                          <li>
+                              <span>
+                                  New!
+                              </span>
+                              <a href="https://arxiv.org/abs/1806.00468" style="color:#006eb6" target="_blank"> Implicit Bias of Gradient Descent on Linear Convolutional Networks</a> (NeurIPS 2018) w/ J. Lee, D. Soudry, N. Srebro.
+                          </li>
+                          <li>
+                              <a href="https://arxiv.org/abs/1803.01905"  style="color:#006eb6" target="_blank"> Convergence of Gradient Descent on Separable Data</a> (Under review) w/ M. S. Nacson, J. Lee, P. Savarese, D. Soudry, N. Srebro.
+                          </li>
+                          <li>
+                              <a href="https://arxiv.org/abs/1802.08246"  style="color:#006eb6" target="_blank"> Characterizing Implicit Bias in Terms of Optimization Geometry</a> (ICML 2018) w/ J. Lee, D. Soudry, N. Srebro.
+                          </li>
+                          <li>
+                              <a href="https://arxiv.org/abs/1710.10345" style="color:#006eb6" target="_blank"> The Implicit Bias of Gradient Descent on Separable Data</a> (JMLR 2018) w/ D. Soudry, E. Hoffer, M. S. Nacson, N. Srebro.
+                          </li>
+                          <li>
+                              <a href="https://arxiv.org/abs/1705.09280"  style="color:#006eb6" target="_blank"> Implicit Regularization in Matrix Factorization</a> (NeurIPS 2017) w/ B. Woodworth, S. Bhojanapalli, B. Neyshabur, N. Srebro.
                           </li>
                       </ul>
                   </dd>
-
-                  <!--dt> Slides from recent talks </dt>
+                  <dt>
+                      <p style="color:#006666"><b>On algorithmic fairness:</b></p>
+                  </dt>
                   <dd>
                       <ul>
-                          <li> <a href="misc/ismp_2018.pdf" style="color:#006eb6" target="_blank"> Implicit bias from optimization for learning</a> July 2018 @ ISMP.</li>
-                          <li> <a href="misc/opt-geom_UW_2018.pdf" style="color:#006eb6" target="_blank"> Optimization Geometry and Implicit Regularization</a> March 2018 @ SILO Seminar Series at UW Madison.</li>
-                          <li> <a href="misc/gf_ita_2018.pdf" style="color:#006eb6" target="_blank"> Implicit Regularization in Matrix Factorization </a> Feb 2018 @ ITA. </li>
-                      </ul>
-                  </dd-->
-
-                  <dt> Events</dt>
-                  <dd>
-                      <ul>
-                          <li> Co-organized the two week <a href="http://ttic.uchicago.edu/~suriya/website-intromlss2018/index.html" style="color:brown" target="_blank"> Introduction to Machine Leaning Summer School</a> at TTIC between June 19-29, 2018.
+                          <li>
+                              <span>New!</span> <a href="https://arxiv.org/abs/1810.11829" style="color:#006eb6" target="_blank"> On preserving non-discrimination when combining expert advice</a> (NeurIPS 2018) w/ T. Lykouris, N. Srebro, A. Blum.
                           </li>
-                          <li> Co-organized the <a href="http://midwest-ml.org/2018/" style="color:brown" target="_blank"> Midwest ML Symposium (MMLS) 2018</a> to be held June 6-7, 2018 at UChicago. </li>
+                          <li>
+                              <a href="https://arxiv.org/abs/1702.06081" style="color:#006eb6" target="_blank"> Learning Non-Discriminatory Predictors</a>. Conference on Learning Theory (COLT 2017) w/ B. Woodworth, M. I. Ohannessian, N. Srebro.
+                          </li>
                       </ul>
                   </dd>
-
-                  <!--li> COLT 2017 paper on  <a href="https://arxiv.org/abs/1702.06081" style="color:#006eb6"  target="_blank">Learning non-discriminatory predictors</a></li-->
               </dl>
+              <br>
+          </section>
+      </div>
+
+      <div class="wrapper">
+          <section>
+              <h2>News</h2>
+              <ul>
+                  <li>
+                      I will be at <a href="https://simons.berkeley.edu/" style="color:brown"> Simons Institute for the Theory of Computing</a> during summer 2019 for the program on <a href="https://simons.berkeley.edu/programs/dl2019" style="color:brown" target="_blank">Foundations of Deep Learning</a>.
+                  </li>
+                  <li>
+                      Recent talks on <i>Implicit Bias of Optimization in Learning</i>:
+                      <ul  style="list-style-type:circle">
+                          <li>
+                              NYU Center for Data Science.
+                          </li>
+                          <li>
+                              INFORMS Annual Meeting.
+                          </li>
+                          <li>
+                              CAM Colloquim at Cornell University.
+                          </li>
+                      </ul>
+                  </li>
+                  <li>
+                      Co-organized a co-taught a two week <a href="http://ttic.uchicago.edu/~suriya/website-intromlss2018/index.html" style="color:brown" target="_blank"> Introduction to Machine Leaning Summer School</a> at TTIC,  June 19-29, 2018.<br> (see link for teaching material)
+                  </li>
+                  <li>
+                      Co-organized the <a href="http://midwest-ml.org/2018/" style="color:brown" target="_blank"> Midwest ML Symposium (MMLS) 2018</a>,  June 6-7, 2018 at UChicago.
+                  </li>
+              </ul>
           </section>
           <br><hr style="display:inline-block; width:100%;"><br>
       </div>
 
       <div  id="publications" class="wrapper">
           <section style="display:block;width:100%">
-              <h1 style="display:inline-block"> Publications</h1>
+              <h2 style="display:inline-block"> Publications</h2>
               <span style="display:inline-block;float:right;text-align:right">
                   <a class="button" href="http://dblp.uni-trier.de/pers/hd/g/Gunasekar:Suriya"  style="text-decoration:None;vertical-align:middle;" target="_blank">
                       <img alt="dblp logo" src="images/dblp.png" style="height:20px;vertical-align:middle;">&nbsp;DBLP
