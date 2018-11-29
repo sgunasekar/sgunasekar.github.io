@@ -156,25 +156,8 @@ select {
   margin:0 auto;
   height: auto;
 }
-.header {
-  width:25%;
-  float:left;
-  position:static;
-  -webkit-font-smoothing:subpixel-antialiased;
-  height: auto;
-}
-.aside {
-  width:40%;
-  float:left;
-  position:static;
-  -webkit-font-smoothing:subpixel-antialiased;
-  height: auto;
-}
-.container {
-  width:100%;
-  margin:0 auto;
-  height: auto;
-}
+
+
 
 blockquote {
   border-left:1px solid #e5e5e5;
@@ -223,7 +206,7 @@ img {
 }
 
 header {
-  width:25%;
+  width:20%;
   float:left;
   position:static;
   -webkit-font-smoothing:subpixel-antialiased;
@@ -247,9 +230,9 @@ section {
 
 
 aside {
-  width:70%;
+  width:35%;
   height:auto;
-  float:right;
+  float:left;
   display: block;
   margin:0 0 0;
   position:static;
