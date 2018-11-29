@@ -56,8 +56,6 @@
 
 html {
     font: 16px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    -ms-text-size-adjust:100%;
-    -webkit-text-size-adjust:100%
 }
 
 body {
@@ -189,7 +187,7 @@ th, td {
   text-align:left;
   padding:5px 10px;
   border-bottom:1px solid #e5e5e5;
-  word-wrap:break-all;
+  word-wrap:break-word;
 }
 
 dt {
@@ -209,7 +207,6 @@ header {
   width:20%;
   float:left;
   position:static;
-  -webkit-font-smoothing:subpixel-antialiased;
 }
 
 strong {
@@ -225,7 +222,6 @@ section {
   display: block;
   margin:0 0 0;
   position:static;
-  -webkit-font-smoothing:subpixel-antialiased;
 }
 
 
@@ -236,7 +232,6 @@ aside {
   display: block;
   margin:0 0 0;
   position:static;
-  -webkit-font-smoothing:subpixel-antialiased;
 }
 
 
@@ -255,8 +250,7 @@ footer {
   float:left;
   position:fixed;
   bottom:50px;
-  -webkit-font-smoothing:subpixel-antialiased;
-  text-align="right"
+  text-align:right;
 }
 u.dotted{
           border-bottom: 1px dashed #999;
