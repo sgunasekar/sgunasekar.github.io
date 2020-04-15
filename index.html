@@ -16,6 +16,7 @@
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" integrity="sha384-3AB7yXWz4OeoZcPbieVW64vVXEwADiYyAEhwilzWsLw+9FgqpyjjStpPnpBO8o8S" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css">
     <!-- jQuery library -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Latest compiled JavaScript -->
@@ -38,9 +39,8 @@
                   Senior Researcher<br>
                   <a href="https://www.microsoft.com/en-us/research/group/mlog/#"  target="_blank" style="color:brown;font-size:16px">Machine Learning and Optimization (MLO) Group</a><br>
                   <a href="microsoft.com/en-us/research/lab/microsoft-research-redmond/"  target="_blank" style="color:brown;font-size:16px">Microsoft Research at Redmond</a><br>
-                  <a href="mailto:suriya@ttic.edu"  target="_blank" style="color:#000 ;font-size:20px;text-decoration:none">
-                      <i class="far fa-envelope"></i>&nbsp;<img alt="Email id" src="images/email_add.png" style="height:30px;"/>
-                  </a><br>
+                  <!--i class="far fa-envelope"></i-->&nbsp;<img alt="Email id" src="images/email.png" style="height:50px;"/>
+                  <br>
 
 
                   <p style="padding:0px 0 0px;max-width:960px;text-align:left">
@@ -75,7 +75,7 @@
                   <dd>
                       <ul>
                           <li>
-                              <a href="https://arxiv.org/abs/1906.05827" style="color:#006eb6" target="_blank"> Kernel and Deep Regimes in Overparametrized Models</a> (Arxiv 2019 ) w/ B. Woodworth, J. Lee, D. Soudry, N. Srebro.
+                              <a href="https://arxiv.org/abs/2002.09277" style="color:#006eb6" target="_blank"> Kernel and Rich Regimes in Overparametrized Models</a> (Arxiv 2020 (merged with earlier preprint in 2019)) w/ B. Woodworth, J. Lee, E. Moroshko, P. Savarese, I. Golan, D. Soudry, N. Srebro.
                           </li>
                           <li>
                               <a href="https://arxiv.org/abs/1905.07325" style="color:#006eb6" target="_blank"> Lexicographic and Depth-Sensitive Margins in Homogeneous and Non-Homogeneous Deep Models</a> (ICML 2019 ) w/ M. S. Nacson, J. Lee, N. Srebro, D. Soudry.
@@ -115,50 +115,19 @@
           </section>
       </div>
 
-      <!--div class="wrapper">
-          <section>
-              <h2>News</h2>
-              <ul>
-                  <li>
-                      I will be at <a href="https://simons.berkeley.edu/" style="color:brown"> Simons Institute for the Theory of Computing</a> during summer 2019 for the program on <a href="https://simons.berkeley.edu/programs/dl2019" style="color:brown" target="_blank">Foundations of Deep Learning</a>.
-                  </li>
-                  <li>
-                      Recent talks on <i>Implicit Bias of Optimization in Learning</i>:
-                      <ul  style="list-style-type:circle">
-                          <li> MIFODS workshop on <a href=http://mifods.mit.edu/deep.php  style="color:brown"><i> Non-convex optimization and deep learning</i></a> at MIT (Jan 2019)
-                          </li>
-                          <li>
-                              NYU Center for Data Science (Nov 2018).
-                          </li>
-                          <li>
-                              INFORMS Annual Meeting (Nov 2018).
-                          </li>
-                          <li>
-                              CAM Colloquim at Cornell University (Oct 2018).
-                          </li>
-                      </ul>
-                  </li>
-                  <li>
-                      Co-organized a co-taught a two week <a href="http://ttic.uchicago.edu/~suriya/website-intromlss2018/index.html" style="color:brown" target="_blank"> Introduction to Machine Leaning Summer School</a> at TTIC,  June 19-29, 2018.<br> (see link for teaching material)
-                  </li>
-                  <li>
-                      Co-organized the <a href="http://midwest-ml.org/2018/" style="color:brown" target="_blank"> Midwest ML Symposium (MMLS) 2018</a>,  June 6-7, 2018 at UChicago.
-                  </li>
-              </ul>
-          </section>
-          <br><hr style="display:inline-block; width:100%;"><br>
-      </div-->
+
 
       <div  id="publications" class="wrapper">
           <section style="display:block;width:100%">
               <h2 style="display:inline-block"> Publications</h2>
               <span style="display:inline-block;float:right;text-align:right">
-                  <a class="button" href="http://dblp.uni-trier.de/pers/hd/g/Gunasekar:Suriya"  style="text-decoration:None;vertical-align:middle;" target="_blank">
+                  <!--a class="button" href="http://dblp.uni-trier.de/pers/hd/g/Gunasekar:Suriya"  style="text-decoration:None;vertical-align:middle;" target="_blank">
                       <img alt="dblp logo" src="images/dblp.png" style="height:20px;vertical-align:middle;">&nbsp;DBLP
-                  </a>
+                  </a-->
 
                   <a class="button"  href="https://scholar.google.com/citations?hl=en&user=EkREu_QAAAAJ&view_op=list_works&sortby=pubdate" style="text-decoration:None;vertical-align:middle;" target="_blank">
-                      <img alt="google scholar logo" src="images/scholar.png" style="height:15px;vertical-align:middle;"/>&nbsp;Scholar
+                      <!--img alt="google scholar logo" src="images/scholar.png" style="height:15px;vertical-align:middle;"/-->
+                      <i class="ai ai-google-scholar"></i>&nbsp;Google Scholar
                   </a>
                   <select id="dropdown" onchange="selectField(this)" autocomplete="off">
                       <option value="all"  selected="selected">---Filter by  topic---</option>
@@ -181,10 +150,17 @@
                       </thead>
 
                       <tbody id="pub">
-                          <tr data-tag="#impreg"><td>2019</td>
-                              <td> B. Woodworth, S. Gunasekar, J. Lee, D. Soudry, N. Srebro. <b><a href="https://arxiv.org/abs/1906.05827" style="text-decoration:underline;color:#145A8C"  target="_blank"> Kernel and Deep Regimes in Overparametrized Models</a></b>. Arxiv Preprint, 2019.
+                          <tr><td>2020</td>
+                              <td> S. Gunasekar, B. Woodworth N. Srebro. <b><a href="https://arxiv.org/abs/2004.01025" style="text-decoration:underline;color:#145A8C"  target="_blank"> Mirrorless Mirror Descent: A More Natural Discretization of Riemannian Gradient Flow</a></b>. Arxiv Preprint, 2020.
                               </td>
                           </tr>
+                          <tr data-tag="#impreg"><td>2020</td>
+                              <td> B. Woodworth, S. Gunasekar, J. Lee, E. Moroshko, P. Savarese, I. Golan, D. Soudry, N. Srebro. <b><a href="https://arxiv.org/abs/2002.09277" style="text-decoration:underline;color:#145A8C"  target="_blank"> Kernel and Deep Regimes in Overparametrized Models</a></b>. Arxiv Preprint, 2020.
+                              </td>
+                          </tr>
+                          <tr><td>2019</td>
+                              <td> X. Wu, E. Dobriban, T. Ren, S. Wu, Z. Li, S. Gunasekar, R. Ward, Q. Liu. <b><a href="https://arxiv.org/abs/1911.07956" style="text-decoration:underline;color:#145A8C"  target="_blank"> Implicit Regularization of Normalization Methods</a></b>. Arxiv Preprint, 2019.
+                              </td>
                           <tr data-tag="#impreg"><td>2019</td>
                               <td> M. S. Nacson, S. Gunasekar, J. Lee, N. Srebro, D. Soudry. <b><a href="https://arxiv.org/abs/1905.07325" style="text-decoration:underline;color:#145A8C"  target="_blank"> Lexicographic and Depth-Sensitive Margins in Homogeneous and Non-Homogeneous Deep Models</a></b>. International Conference on Machine Learning (ICML), 2019.
                               </td>
